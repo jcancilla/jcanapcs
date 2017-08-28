@@ -7,7 +7,7 @@ public class HelloWorld {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a name:");
 		name = sc.next();
-		System.out.println("Hello " + name);
+		System.out.println("Hello " + name + "!");
 		sc.close();
 
 	}
