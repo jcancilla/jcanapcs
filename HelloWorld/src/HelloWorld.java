@@ -1,7 +1,12 @@
+
+/**
+ * @author jcancilla
+ *
+ */
+
 import java.util.Scanner;
 
 public class HelloWorld {
-
 	public static void main(String[] args) {
 		String name;
 		Scanner sc = new Scanner(System.in);
@@ -9,7 +14,5 @@ public class HelloWorld {
 		name = sc.next();
 		System.out.println("Hello " + name + "!");
 		sc.close();
-
 	}
-
 }
